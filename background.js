@@ -2,13 +2,13 @@
 
 chrome.browserAction.onClicked.addListener(function(tab) {
     if (tab.url.indexOf("facebook.com") > -1) {
-        chrome.tabs.executeScript(null, {
-			file: "jquery.js"
-		});	
-		chrome.tabs.executeScript(null, {
-			file: "magic.js"
-		});	
+			chrome.tabs.executeScript(null, {
+				file: "jquery.js"
+			});	
+			chrome.tabs.executeScript(null, {
+				file: "magic.js"
+			});	
     } else {
-		alert("Please go to facebook and try again");
+			alert("Please go to facebook and try again");
     }
 });
