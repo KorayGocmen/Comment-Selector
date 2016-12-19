@@ -1,0 +1,25 @@
+{
+    "name": "Auto Comment Selector",
+    "version": "1.1",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "description": "Automatic Comment Selector for Facebook, by Koray Gocmen",
+    "browser_action": {
+        "default_title": "Auto Comment Selector by Koray Gocmen"
+    },
+	
+	"icons": { 
+			"16": "icon16.png",
+			"48": "icon48.png",
+			"128": "icon128.png" },
+			
+    "permissions": [
+        "http://www.facebook.com/",
+        "https://www.facebook.com/",
+        "tabs"
+    ],
+    "manifest_version": 2
+}
